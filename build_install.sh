@@ -1,0 +1,1 @@
+dotnet build -c Release ./src/BasicCalculator.sln && tizen install -- . -n ./src/BasicCalculator/BasicCalculator.Tizen.TV/bin/Release/tizen40/org.tizen.example.BasicCalculator.Tizen.TV-1.0.0.tpk && tizen run -p org.tizen.example.BasicCalculator.Tizen.TV
